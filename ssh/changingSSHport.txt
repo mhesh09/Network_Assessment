@@ -1,0 +1,5 @@
+# To change SSH port I have to change the ~/.ssh/sshd_config file. So, in order to change Port number I have to open sshd_config file.
+   And I change the following content #Port 22 to Port 2222. Over here I have remove '#' comment line and replace 22 with 2222. Which means 
+   my ssh is operating from port 2222. After making some change in file I have to restart my ssh service by typing following command in terminal
+   'systemctl restart ssh.service '. Now ssh Port will serve in 2222 port number. 
+   
